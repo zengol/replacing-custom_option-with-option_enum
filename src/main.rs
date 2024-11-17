@@ -98,7 +98,7 @@ impl Catalog {
      catalog.add(movie);
      catalog.add(serie);
      catalog.add(radio);
-
+    // utilize un math statement para reemplazar el custom_enum with un option_enum 
      match catalog.get_by_index(4) {
         
        Some(value) => {
@@ -109,7 +109,8 @@ impl Catalog {
         }
 
      }
-
+    // Lo mismo se puede hacer utilizando un pattern_matching en este caso if_let
+     
      /* if let Some(value)= catalog.get_by_index(3242){
         println!("There is a value: {:#?}", value);
      } else {
