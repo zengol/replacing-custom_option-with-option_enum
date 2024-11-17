@@ -98,7 +98,7 @@ impl Catalog {
      catalog.add(movie);
      catalog.add(serie);
      catalog.add(radio);
-    // utilize un math statement para reemplazar el custom_enum with un option_enum 
+    // utilize un math para reemplazar el custom_enum with un option_enum 
      match catalog.get_by_index(4) {
         
        Some(value) => {
